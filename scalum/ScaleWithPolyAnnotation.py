@@ -30,7 +30,7 @@ class ScaleWithPolyAnnotation(Scale):
             rescaled_anno = []
 
             for point in anno:
-                rescaled_anno.append([point[0] / (width + 2*left_offset),point[0][1] / (height + 2*top_offset)])
+                rescaled_anno.append([point[0] / (width + 2*left_offset),point[1] / (height + 2*top_offset)])
 
             ret_annotations.append(rescaled_anno)
 
