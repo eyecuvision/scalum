@@ -4,7 +4,7 @@ from .Scale import Scale
 
 class ScaleWithInverse(Scale):
 
-    def scale_img(self,img,img_annotations):
+    def scale_img(self,img,*args,**kwargs):
 
         ratio = self.get_scale_ratio(img)
 
