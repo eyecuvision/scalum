@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scalum"
-version = "1.2.0"
+version = "1.3.2"
 description = ""
 authors = ["Oguz Vuruskaner <ovuruska@outlook.com>"]
 packages = [
